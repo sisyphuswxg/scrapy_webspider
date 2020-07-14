@@ -8,6 +8,7 @@
 
 import MySQLdb
 import pymongo
+import redis
 
 
 class QidianHotProPipeline(object):
@@ -52,7 +53,7 @@ class MongoDBPipeline(object):
     def open_spider(self, spider):
         host = spider.settings.get("MONGODB_HOST", "localhost")
         port = spider.settings.get("MONGODB_PORT", 27017)
-        db_name = spider.settings.get("MONGODB_NAME", "MONGODB_NAME")
+        db_name = spider.settings.get("MONGODB_NAME", "qidian")
         collection_name = spider.settings.get("MONGODB_COLLECTION", "qidian_hot")
         self.db_client = pymongo.MongoClient(host=host,
                                              port=port)
@@ -66,4 +67,26 @@ class MongoDBPipeline(object):
 
     def close_spider(self, spider):
         self.db_client.close()
+
+
+class RedisPipeline(object):
+
+    def open_spider(self, spider):
+        host = spider.settings.get("REDIS_HOST", "localhost")
+        port = spider.settings.get("REDIS_PORT", 27017)
+        db_index = spider.settings.get("REDIS_DB_INDEX", 0)
+        password = spider.settings.get("REDIS_PASSWORD", "sisyphuswxg")
+        self.db_conn = redis.StrictRedis(host=host,
+                                         port=port,
+                                         db=db_index,
+                                         password=password)
+
+    def process_item(self, item, spider):
+        item_dict = dict(item)
+        self.db_conn.rpush("novel", item_dict)
+        return item
+
+    def close_spider(self, spider):
+        self.db_conn.connection_pool.disconnect()
+
 

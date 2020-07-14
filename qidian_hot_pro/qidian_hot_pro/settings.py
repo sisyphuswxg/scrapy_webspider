@@ -67,7 +67,8 @@ ROBOTSTXT_OBEY = True
 ITEM_PIPELINES = {
     'qidian_hot_pro.pipelines.QidianHotProPipeline': 300,
     # 'qidian_hot_pro.pipelines.MySQLPipeline': 400,
-    'qidian_hot_pro.pipelines.MongoDBPipeline': 400,
+    # 'qidian_hot_pro.pipelines.MongoDBPipeline': 400,
+    'qidian_hot_pro.pipelines.RedisPipeline': 400,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -103,3 +104,10 @@ MONGODB_HOST = "localhost"
 MONGODB_PORT = 27017
 MONGODB_NAME = "qidian"
 MONGODB_COLLECTION = "qidian_hot"
+
+# Redis
+REDIS_HOST = "localhost"
+REDIS_PORT = 6379
+REDIS_DB_INDEX = 0
+REDIS_PASSWORD = "sisyphuswxg"
+

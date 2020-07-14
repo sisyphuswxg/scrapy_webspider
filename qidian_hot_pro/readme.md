@@ -20,20 +20,31 @@
 
 
 * MySQL数据库
+```bash
 pip3 install mysqlclient
 MySQLPipeline
+```
 
 
 * MongoDB数据库
 
 使用社区版 
 ```bash
+# install mongodb
 brew tap mongodb/brew
 brew services start mongodb-community
 
 # 可视化工具
 brew cask install mongodb-compass
-```
+
 pip3 install pymongo
 MongoDBPipeline
+```
 
+
+* Redis数据库
+
+```bash
+pip install redis==2.10.6
+RedisPipeline
+```
