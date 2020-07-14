@@ -66,7 +66,8 @@ ROBOTSTXT_OBEY = True
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
     'qidian_hot_pro.pipelines.QidianHotProPipeline': 300,
-    'qidian_hot_pro.pipelines.MySQLPipeline': 400,
+    # 'qidian_hot_pro.pipelines.MySQLPipeline': 400,
+    'qidian_hot_pro.pipelines.MongoDBPipeline': 400,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -96,3 +97,9 @@ MYSQL_DB_NAME = "qidian"
 MYSQL_HOST = "localhost"
 MYSQL_USER = "root"
 MYSQL_PASSWORD = "sisyphuswxg"
+
+# MongoDB
+MONGODB_HOST = "localhost"
+MONGODB_PORT = 27017
+MONGODB_NAME = "qidian"
+MONGODB_COLLECTION = "qidian_hot"

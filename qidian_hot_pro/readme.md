@@ -18,8 +18,22 @@
 可选功能，默认是关闭的，需要到配置文件中进行打开
 可以定义多个Item Pipeline组件，数据会依次访问每个组件，执行相应的数据处理功能
 
+
 * MySQL数据库
 pip3 install mysqlclient
 MySQLPipeline
 
+
+* MongoDB数据库
+
+使用社区版 
+```bash
+brew tap mongodb/brew
+brew services start mongodb-community
+
+# 可视化工具
+brew cask install mongodb-compass
+```
+pip3 install pymongo
+MongoDBPipeline
 

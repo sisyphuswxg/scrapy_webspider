@@ -7,6 +7,7 @@
 
 
 import MySQLdb
+import pymongo
 
 
 class QidianHotProPipeline(object):
@@ -44,3 +45,25 @@ class MySQLPipeline(object):
         self.db_conn.commit()
         self.db_cursor.close()
         self.db_conn.close()
+
+
+class MongoDBPipeline(object):
+
+    def open_spider(self, spider):
+        host = spider.settings.get("MONGODB_HOST", "localhost")
+        port = spider.settings.get("MONGODB_PORT", 27017)
+        db_name = spider.settings.get("MONGODB_NAME", "MONGODB_NAME")
+        collection_name = spider.settings.get("MONGODB_COLLECTION", "qidian_hot")
+        self.db_client = pymongo.MongoClient(host=host,
+                                             port=port)
+        self.db = self.db_client[db_name]
+        self.collection = self.db[collection_name]
+
+    def process_item(self, item, spider):
+        item_dict = dict(item)
+        self.collection.insert_one(item_dict)
+        return item
+
+    def close_spider(self, spider):
+        self.db_client.close()
+
