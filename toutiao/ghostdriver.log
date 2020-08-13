@@ -1,0 +1,199 @@
+[INFO  - 2020-08-13T05:47:22.690Z] GhostDriver - Main - running on port 58347
+[INFO  - 2020-08-13T05:47:23.206Z] Session [75bdba20-dd28-11ea-a567-2d98483bf1b0] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2020-08-13T05:47:23.206Z] Session [75bdba20-dd28-11ea-a567-2d98483bf1b0] - page.customHeaders:  - {}
+[INFO  - 2020-08-13T05:47:23.206Z] Session [75bdba20-dd28-11ea-a567-2d98483bf1b0] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2020-08-13T05:47:23.206Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 75bdba20-dd28-11ea-a567-2d98483bf1b0
+[ERROR - 2020-08-13T05:47:23.942Z] Session [75bdba20-dd28-11ea-a567-2d98483bf1b0] - page.onError - msg: TypeError: Attempting to change access mechanism for an unconfigurable property.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:23.942Z] Session [75bdba20-dd28-11ea-a567-2d98483bf1b0] - page.onError - stack:
+  defineProperty (https://unpkg.pstatp.com/byted/sec_sdk_build/2.0.2/dist/captcha.js:1)
+  ct (https://unpkg.pstatp.com/byted/sec_sdk_build/2.0.2/dist/captcha.js:1)
+  L (https://sf1-ttcdn-tos.pstatp.com/obj/rc-web-sdk/acrawler.js:1)
+  M (https://sf1-ttcdn-tos.pstatp.com/obj/rc-web-sdk/acrawler.js:1)
+  L (https://sf1-ttcdn-tos.pstatp.com/obj/rc-web-sdk/acrawler.js:1)
+  M (https://sf1-ttcdn-tos.pstatp.com/obj/rc-web-sdk/acrawler.js:1)
+  L (https://sf1-ttcdn-tos.pstatp.com/obj/rc-web-sdk/acrawler.js:1)
+  M (https://sf1-ttcdn-tos.pstatp.com/obj/rc-web-sdk/acrawler.js:1)
+  a (https://sf1-ttcdn-tos.pstatp.com/obj/rc-web-sdk/acrawler.js:1)
+  tacSign (https://s3.pstatp.com/toutiao/resource/ntoutiao_web/static/js/common/lib_6b19209.js:2)
+  init (https://s3.pstatp.com/toutiao/resource/ntoutiao_web/static/js/common/lib_6b19209.js:1)
+  Reqwest (https://s3.pstatp.com/toutiao/resource/ntoutiao_web/static/js/common/lib_6b19209.js:1)
+  reqwest (https://s3.pstatp.com/toutiao/resource/ntoutiao_web/static/js/common/lib_6b19209.js:1)
+  (anonymous function) (https://s3a.pstatp.com/toutiao/resource/ntoutiao_web/page/home/whome/home_1e5f6fa.js:1)
+  (anonymous function) (:0)
+  (anonymous function) (https://s3a.pstatp.com/toutiao/resource/ntoutiao_web/page/home/whome/home_1e5f6fa.js:1)
+  (anonymous function) (:0)
+  (anonymous function) (https://s3a.pstatp.com/toutiao/resource/ntoutiao_web/page/home/whome/home_1e5f6fa.js:1)
+  mount (https://s3.pstatp.com/toutiao/resource/ntoutiao_web/static/js/common/lib_6b19209.js:1)
+  R (https://s3.pstatp.com/toutiao/resource/ntoutiao_web/static/js/common/lib_6b19209.js:1)
+  i (https://s3.pstatp.com/toutiao/resource/ntoutiao_web/static/js/common/lib_6b19209.js:1)
+  f (https://s3.pstatp.com/toutiao/resource/ntoutiao_web/static/js/common/lib_6b19209.js:1)
+  mount (https://s3.pstatp.com/toutiao/resource/ntoutiao_web/static/js/common/lib_6b19209.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:24.054Z] Session [75bdba20-dd28-11ea-a567-2d98483bf1b0] - page.onError - msg: TypeError: Attempting to change access mechanism for an unconfigurable property.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:24.054Z] Session [75bdba20-dd28-11ea-a567-2d98483bf1b0] - page.onError - stack:
+  defineProperty (https://unpkg.pstatp.com/byted/sec_sdk_build/2.0.2/dist/captcha.js:1)
+  ct (https://unpkg.pstatp.com/byted/sec_sdk_build/2.0.2/dist/captcha.js:1)
+  L (https://sf1-ttcdn-tos.pstatp.com/obj/rc-web-sdk/acrawler.js:1)
+  M (https://sf1-ttcdn-tos.pstatp.com/obj/rc-web-sdk/acrawler.js:1)
+  L (https://sf1-ttcdn-tos.pstatp.com/obj/rc-web-sdk/acrawler.js:1)
+  M (https://sf1-ttcdn-tos.pstatp.com/obj/rc-web-sdk/acrawler.js:1)
+  L (https://sf1-ttcdn-tos.pstatp.com/obj/rc-web-sdk/acrawler.js:1)
+  M (https://sf1-ttcdn-tos.pstatp.com/obj/rc-web-sdk/acrawler.js:1)
+  a (https://sf1-ttcdn-tos.pstatp.com/obj/rc-web-sdk/acrawler.js:1)
+  tacSign (https://s3.pstatp.com/toutiao/resource/ntoutiao_web/static/js/common/lib_6b19209.js:2)
+  init (https://s3.pstatp.com/toutiao/resource/ntoutiao_web/static/js/common/lib_6b19209.js:1)
+  Reqwest (https://s3.pstatp.com/toutiao/resource/ntoutiao_web/static/js/common/lib_6b19209.js:1)
+  reqwest (https://s3.pstatp.com/toutiao/resource/ntoutiao_web/static/js/common/lib_6b19209.js:1)
+  (anonymous function) (https://s3a.pstatp.com/toutiao/resource/ntoutiao_web/page/home/whome/home_1e5f6fa.js:2)
+  (anonymous function) (:0)
+  (anonymous function) (https://s3a.pstatp.com/toutiao/resource/ntoutiao_web/page/home/whome/home_1e5f6fa.js:2)
+  (anonymous function) (:0)
+  (anonymous function) (https://s3a.pstatp.com/toutiao/resource/ntoutiao_web/page/home/whome/home_1e5f6fa.js:2)
+  (anonymous function) (:0)
+  (anonymous function) (https://s3a.pstatp.com/toutiao/resource/ntoutiao_web/page/home/whome/home_1e5f6fa.js:2)
+  mount (https://s3.pstatp.com/toutiao/resource/ntoutiao_web/static/js/common/lib_6b19209.js:1)
+  R (https://s3.pstatp.com/toutiao/resource/ntoutiao_web/static/js/common/lib_6b19209.js:1)
+  i (https://s3.pstatp.com/toutiao/resource/ntoutiao_web/static/js/common/lib_6b19209.js:1)
+  f (https://s3.pstatp.com/toutiao/resource/ntoutiao_web/static/js/common/lib_6b19209.js:1)
+  mount (https://s3.pstatp.com/toutiao/resource/ntoutiao_web/static/js/common/lib_6b19209.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:24.120Z] Session [75bdba20-dd28-11ea-a567-2d98483bf1b0] - page.onError - msg: TypeError: Attempting to change access mechanism for an unconfigurable property.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:24.120Z] Session [75bdba20-dd28-11ea-a567-2d98483bf1b0] - page.onError - stack:
+  defineProperty (https://unpkg.pstatp.com/byted/sec_sdk_build/2.0.2/dist/captcha.js:1)
+  ct (https://unpkg.pstatp.com/byted/sec_sdk_build/2.0.2/dist/captcha.js:1)
+  L (https://sf1-ttcdn-tos.pstatp.com/obj/rc-web-sdk/acrawler.js:1)
+  M (https://sf1-ttcdn-tos.pstatp.com/obj/rc-web-sdk/acrawler.js:1)
+  L (https://sf1-ttcdn-tos.pstatp.com/obj/rc-web-sdk/acrawler.js:1)
+  M (https://sf1-ttcdn-tos.pstatp.com/obj/rc-web-sdk/acrawler.js:1)
+  L (https://sf1-ttcdn-tos.pstatp.com/obj/rc-web-sdk/acrawler.js:1)
+  M (https://sf1-ttcdn-tos.pstatp.com/obj/rc-web-sdk/acrawler.js:1)
+  a (https://sf1-ttcdn-tos.pstatp.com/obj/rc-web-sdk/acrawler.js:1)
+  tacSign (https://s3.pstatp.com/toutiao/resource/ntoutiao_web/static/js/common/lib_6b19209.js:2)
+  init (https://s3.pstatp.com/toutiao/resource/ntoutiao_web/static/js/common/lib_6b19209.js:1)
+  Reqwest (https://s3.pstatp.com/toutiao/resource/ntoutiao_web/static/js/common/lib_6b19209.js:1)
+  reqwest (https://s3.pstatp.com/toutiao/resource/ntoutiao_web/static/js/common/lib_6b19209.js:1)
+  (anonymous function) (https://s3a.pstatp.com/toutiao/resource/ntoutiao_web/page/home/whome/home_1e5f6fa.js:2)
+  trigger (https://s3.pstatp.com/toutiao/resource/ntoutiao_web/static/js/common/lib_6b19209.js:1)
+  mount (https://s3.pstatp.com/toutiao/resource/ntoutiao_web/static/js/common/lib_6b19209.js:1)
+  R (https://s3.pstatp.com/toutiao/resource/ntoutiao_web/static/js/common/lib_6b19209.js:1)
+  i (https://s3.pstatp.com/toutiao/resource/ntoutiao_web/static/js/common/lib_6b19209.js:1)
+  f (https://s3.pstatp.com/toutiao/resource/ntoutiao_web/static/js/common/lib_6b19209.js:1)
+  mount (https://s3.pstatp.com/toutiao/resource/ntoutiao_web/static/js/common/lib_6b19209.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:24.528Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297644479
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:25.437Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297645414
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:26.285Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297646261
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:27.147Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297647118
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:27.994Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297647968
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:28.845Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297648818
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:29.696Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297649668
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:30.552Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297650520
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:31.401Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297651379
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:32.253Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297652222
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:33.116Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297653080
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:33.965Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297653939
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:34.816Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297654787
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:35.664Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297655635
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:36.503Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297656483
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:37.351Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297657326
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:38.197Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297658174
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:39.043Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297659017
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:39.912Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297659886
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:40.780Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297660760
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:41.625Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297661604
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:42.466Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297662446
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:43.319Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297663295
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:44.167Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297664142
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:45.010Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297664992
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:45.869Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297665832
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:46.717Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297666692
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:47.559Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297667539
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:48.407Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297668387
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:49.255Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297669230
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:50.100Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297670078
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:50.947Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297670920
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:51.794Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297671772
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:52.650Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297672616
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:53.495Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297673470
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-08-13T05:47:54.352Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1597297674323
+
+  phantomjs://platform/console++.js:263 in error
